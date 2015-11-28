@@ -1231,7 +1231,7 @@ def download_subtitles(language, title, year, season, episode):
         sub_labels.append(utils.format_sub_label(sub))
 
     index = 0
-    if len(sub_labels) > 1:
+    if len(sub_labels) > 1 and kodi.get_setting('subtitle-auto-enable-top_sub') == 'false':
         dialog = xbmcgui.Dialog()
         index = dialog.select(i18n('choose_subtitle'), sub_labels)
 

@@ -483,7 +483,7 @@
          <setting id="wso.ch-sub_check" type="bool" label="    Include in Page Existence checks?" default="true" visible="eq(-2,true)"/>
          <setting id="wso.ch_last_results" type="number" default="0" visible="false"/>
          <setting id="xmovies8-enable" type="bool" label="xmovies8 Enabled" default="true" visible="true"/>
-         <setting id="xmovies8-base_url" type="text" label="    Base Url" default="https://xmovies8.org" visible="eq(-1,true)"/>
+         <setting id="xmovies8-base_url" type="text" label="    Base Url" default="http://megashare9.tv" visible="eq(-1,true)"/>
          <setting id="xmovies8-sub_check" type="bool" label="    Include in Page Existence checks?" default="true" visible="eq(-2,true)"/>
          <setting id="xmovies8_last_results" type="number" default="0" visible="false"/>
          <setting id="xmovies8-default_url" type="string" visible="false"/>
@@ -515,6 +515,7 @@
         <setting id="subtitle-download" type="bool" label="30620" default="true" enable="eq(-5,true)"/>
         <setting id="subtitle-folder" type="folder" label="30621" default="special://userdata/addon_data/plugin.video.salts/Subtitles" enable="eq(-1,true)+eq(-6,true)"/>
         <setting id="subtitle-show" type="bool" label="30622" default="false" enable="eq(-2,true)+eq(-7,true)"/>
+        <setting id="subtitle-auto-enable-top_sub" type="bool" label="Auto download top subtitle?" default="false" enable="eq(-8,true)"/>
     </category>
     
     <category label="30635">
